@@ -2,10 +2,6 @@
 
 This project implements an AI-powered inbound call agent for The Codebender. It uses OpenAI's new realtime API and integrates with Twilio to handle incoming phone calls.
 
-## Video Instructions
-
-https://youtu.be/AZ0WziqO_QA?si=HORqrwjrbKnsuRZY
-
 ## Features
 
 - Handles incoming calls using Twilio's voice services
@@ -13,6 +9,8 @@ https://youtu.be/AZ0WziqO_QA?si=HORqrwjrbKnsuRZY
 - Transcribes user speech and generates AI responses in real-time
 - Extracts customer details from the conversation
 - Sends extracted information to a webhook for further processing
+- Call timeouts after 5 minutes
+- Use function call to end the call after bidding the customer farewell
 
 ## Technologies Used
 
@@ -26,7 +24,7 @@ https://youtu.be/AZ0WziqO_QA?si=HORqrwjrbKnsuRZY
 
 1. Clone the repository:
    ```
-   git clone https://github.com/...
+   git clone https://github.com/egalaiev/voice-agent-codebender-demo.git
    ```
 
 2. Install dependencies:
